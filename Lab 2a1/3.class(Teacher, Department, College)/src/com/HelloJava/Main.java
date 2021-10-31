@@ -6,3 +6,18 @@ public class Main {
 	// write your code here
     }
 }
+
+interface College {
+    String college_name = null;
+}
+
+class Department implements College {
+    String depatrmant_name;
+    String department_number;
+
+    public Department(String depatrmant_name, String department_number) {
+
+    }
+}
+
+
