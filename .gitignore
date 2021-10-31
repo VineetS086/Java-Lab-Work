@@ -1,4 +1,4 @@
-*.docx
+/*.docx
 *.pages
 *.doc
 .DS_Store
