@@ -46,7 +46,17 @@ class Vector_ {
         return new Vector_(sum);
     }
 
-    Vector_ cross(Vector_ v) {
+    int dot(Vector_ v) {
+        if (this.dimension != v.dimension) {
+            System.out.println("Not Applicable");
+            return 0;
+        }
+        int sum = 0;
+        for (int i = 0; i < dimension; i++) {
+            sum += this.arr[i] * v.arr[i];
+        }
+        return sum;
+
 
     }
 
